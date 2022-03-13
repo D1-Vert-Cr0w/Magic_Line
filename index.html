@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="aos.css">
+    <link href="Main.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+      <script src="Main.js"></script>
+</head>
+<body >
+     
+      <div class="row" id="Banner">
+            <img src="242043_or.jpg" class="Banner">
+           <div class="HeadText" data-aos="fade-down" data-aos-easing="linear"
+           data-aos-duration="1000">Мистическая линия города Перми</div> 
+      </div>
+   <div class="row" id="razdel">
+      <div class="col-5" id="razCol" ><hr class='blackLine' ></hr></div>
+      <div class="col-2"  id="razCol"><img src="Медведь1.svg" class="Bear"></div>
+      <div class="col-5"  id="razCol"><hr class='blackLine'class="col-5" ></hr></div>
+   </div>
+   <div class="row" id="textWrapM">
+         <div class="mainText" data-aos="fade-down">Порой можно и не догадываться, что у мест ,которые мы видим ежедневно, есть свои тайны.
+               Наш город изобилует захватывающими, пугающими, древними историями. И, для того чтобы с этими историями познакомиться, мы создали этот сайт.
+               Он представляет из себя интерактивную карту, где вы можете узнать о неизвестной части истории мест, отмеченных на ней.
+         </div>
+   </div>
+   <div id="map"></div>
+   <div class="row" >
+      <div class="col-4"  id="Col"><hr class='blackLineT'></hr></div>
+      <div class="col-4" ><div class="titleR"><h1 class="razrab" data-aos="fade-down" data-aos-duration="1000">Разработчики</h1></div></div>
+      <div class="col-4" sid="Col"><hr class='blackLineT'class="col-5"></hr></div>
+   </div>
+   <div class="row" >
+      <div class="col-2"></div>
+         <div class="col-4" id="razr" data-aos="fade-right" data-aos-duration="1000">
+      <h1 class="razrabT">Константин</h1>
+      <p class="pText">Верстальщик, дизайнер</p>
+      </div>
+   </div>
+   <div class="row" >
+      <div class="col"></div>
+   <div class="col-4" id="razr" data-aos="fade-left" data-aos-duration="1000">
+      <h1 class="razrabT">Арина</h1>
+      <p  class="pText">Дизайнер, фотограф</p>
+      </div>
+      <div class="col-2"></div>
+      </div>
+      <div class="row" id="footer">
+            <p class="footText">Вопросы и пожелания пишите на почту: work2006@gmail.com</p>
+      </div>
+   </div>
+
+
+
+</body>
+<script src="aos.js"></script>
+<script>AOS.init();</script>
+    <script>
+        function initMap() {
+    myMap = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: 58.011343749764286 , lng: 56.23887390839706},
+    zoom: 14,
+  });
+  var polylineCoords = [
+      new google.maps.LatLng(58.00998694222538,56.23428774161853),
+      new google.maps.LatLng(58.01126468875669,56.23859056409085),
+            new google.maps.LatLng(57.992100593445, 56.257113820373924),
+            new google.maps.LatLng(57.98531928380388, 56.257640345792694),
+            new google.maps.LatLng(57.98207997395089, 56.25884148509824),
+            new google.maps.LatLng(57.978293892307505, 56.25880935224191),
+            new google.maps.LatLng(57.973428730054586, 56.260227339504894),
+            new google.maps.LatLng(57.97364534534654, 56.26395024561755),
+            new google.maps.LatLng(57.9737479521314, 56.263928787945446),
+            new google.maps.LatLng(57.973462932556465, 56.26045264506215),
+            new google.maps.LatLng(57.97844943537621, 56.25904771141582),
+            new google.maps.LatLng(57.984900614172645, 56.257916666475175),
+            new google.maps.LatLng(57.985305487392225, 56.257861464728734),
+            new google.maps.LatLng(57.99185315839262, 56.257249242516274),
+            new google.maps.LatLng(57.99620308524645, 56.26113365143758),
+            new google.maps.LatLng(57.99633411101931, 56.26123021096211),
+            new google.maps.LatLng(57.99642525909921, 56.26150916069969),
+            new google.maps.LatLng(57.99649931674266, 56.261745195093),
+            new google.maps.LatLng(57.99683275028847, 56.263054472581445),
+            new google.maps.LatLng(57.99696947040987, 56.263258320466605),
+            new google.maps.LatLng(57.997100493367796, 56.26332269348292),
+            new google.maps.LatLng(57.997396717411796, 56.2630652014175),
+            new google.maps.LatLng(57.99753913194192, 56.26273260749966),
+            new google.maps.LatLng(57.997288481988605, 56.26174555458219),
+            new google.maps.LatLng(58.00860339825911, 56.25108828145445),
+           ];
+ var polylineCoordsOne = [
+ new google.maps.LatLng(58.00860339825911, 56.25108828145445),
+ new google.maps.LatLng(58.011215730830756,56.26048550366396),
+ new google.maps.LatLng(58.01327397041463,56.25855384898318),
+ new google.maps.LatLng(58.014720231507034,56.263467655898474),
+ new google.maps.LatLng(58.01625183774491,56.26406847071778),
+ new google.maps.LatLng(58.01668739404306,56.26546590161455),
+ new google.maps.LatLng(58.01679032812794,56.26540133185314),
+ new google.maps.LatLng(58.01658963185873,56.26447060532497),
+ new google.maps.LatLng(58.01658820847691,56.26393684573102),
+ new google.maps.LatLng(58.01688711741413,56.26073831148076),
+ new google.maps.LatLng(58.0168842706742,56.25805610246583),
+ new google.maps.LatLng(58.01439043913439,56.24918335504457),
+ new google.maps.LatLng(58.01859707373526,56.245168859064755),
+ new google.maps.LatLng(58.02026137588069,56.25112446414331),
+ new google.maps.LatLng(58.02028699410468,56.25107618438107),
+ new google.maps.LatLng(58.015754566905265,56.23476939555171),
+ new google.maps.LatLng(58.01467400308717,56.229587590466195),
+ new google.maps.LatLng(58.01384390190522,56.23021598382844),
+ new google.maps.LatLng(58.014111517292335,56.23184676690948),
+ new google.maps.LatLng(58.01024536978006,56.23424458769928),
+ new google.maps.LatLng(58.01032509325854,56.234995606223436),
+ new google.maps.LatLng(58.01349187581099,56.246457177070354),
+ new google.maps.LatLng(58.01144196895394,56.248388367561084),
+ new google.maps.LatLng(58.01109461194697,56.24711163606999)
+ ];
+	// Настройки для линии
+	var polyline = new google.maps.Polyline({
+		path: polylineCoords, // Координаты
+		strokeColor: "#8a2be2", // Цвет
+		strokeOpacity: 1.0, // Прозрачность
+		strokeWeight: 1 // Ширина
+	});
+      // Настройки для линии
+	var polylineOne = new google.maps.Polyline({
+		path: polylineCoordsOne, // Координаты
+		strokeColor: "#8a2be2", // Цвет
+		strokeOpacity: 1.0, // Прозрачность
+		strokeWeight: 1 // Ширина
+	});
+
+	
+	// Добавляем на карту
+	polyline.setMap(myMap);
+      polylineOne.setMap(myMap);
+
+  mark2 = new google.maps.Marker({
+        position: { lat:58.01880645406062, lng:56.246610003422674} ,
+        map: myMap,
+        icon: 'Медведь2.svg',
+  }); 
+  mark3 = new google.maps.Marker({
+        position: { lat:58.01210416095317, lng:56.26981358396201} ,
+        map: myMap,
+        icon: 'Медведь2.svg',
+  });
+  mark4 = new google.maps.Marker({
+        position: { lat:58.01611203516429, lng:56.24800118799411} ,
+        map: myMap,
+        icon: 'Медведь2.svg',
+  });
+  mark5 = new google.maps.Marker({
+        position: { lat:58.01136083179749, lng:56.24679197799835} ,
+        map: myMap,
+        icon: 'Медведь2.svg',
+  });
+  mark6 = new google.maps.Marker({
+        position: { lat:57.99504300818495, lng:56.25385623074435} ,
+        map: myMap,
+        icon: 'Медведь2.svg',
+  });
+  mark8 = new google.maps.Marker({
+        position: { lat:58.01587816158652, lng:56.2350041698603} ,
+        map: myMap,
+        icon: 'Медведь2.svg',
+  });
+  mark9 = new google.maps.Marker({
+        position: { lat:58.02251814165618, lng:56.23424583717932} ,
+        map: myMap,
+        icon: 'Медведь2.svg',
+  });
+  mark10 = new google.maps.Marker({
+        position: { lat:58.017999974891346, lng:56.24155010268651} ,
+        map: myMap,
+        icon: 'Медведь2.svg',
+  });
+  mark11 = new google.maps.Marker({
+        position: { lat:58.016919941947066, lng:56.23342282919672} ,
+        map: myMap,
+        icon: 'Медведь2.svg',
+  });
+  mark12 = new google.maps.Marker({
+        position: { lat:58.013957554529675, lng:56.229535567585586} ,
+        map: myMap,
+        icon: 'Медведь2.svg',
+  });[57.97364189481447,56.263947113719965]
+  mark13 = new google.maps.Marker({
+        position: { lat:57.97364189481447, lng:56.263947113719965} ,
+        map: myMap,
+        icon: 'Медведь2.svg',
+  });
+  
+ const info1 = new google.maps.InfoWindow({
+    content:  '<h3>Дом Мешкова</h3>'+
+    '<p>Это место известно, как очень активный дом с привидениями. </p>'+
+    '<a href="Dityo2.html" class="mapButton">Подробнее</a>'
+  });
+  const info2 = new google.maps.InfoWindow({
+    content:  '<h3>Егошихинское кладбище</h3>'+
+    '<p>Как и любое кладбище, это имеет множество сложеных легенд.</p>'+
+    '<a href="Dityo3.html" class="mapButton">Подробнее</a>'
+  });
+  const info3 = new google.maps.InfoWindow({
+    content:  '<h3>Дом с кикиморой</h3>'+
+    '<p>Дом на протяжении всей своей истории служивший пристанищем зла</p>'+
+    '<a href="Dityo4.html" class="mapButton">Подробнее</a>'
+  });
+  const info4 = new google.maps.InfoWindow({
+    content:  '<h3>Дама ТЮЗ</h3>'+
+    '<p>Одна из многих жертв революции, ныне одна из неупокоенных призраков.</p>'+
+    '<a href="Dityo5.html" class="mapButton">Подробнее</a>'
+  });
+  const info5 = new google.maps.InfoWindow({
+    content:  '<h3>Башня смерти</h3>'+
+    '<p>Ужасы об этом месте поражают, и неудивительно, ввсе боялись НКВД.</p>'+
+    '<a href="Dityo6.html" class="mapButton">Подробнее</a>'
+  });
+  const info7 = new google.maps.InfoWindow({
+    content:  '<h3>Черные монахи</h3>'+
+    '<p>ПО этому месту бродит множество неупокоенных.</p>'+
+    '<a href="Dityo7.html" class="mapButton">Подробнее</a>'
+  });
+  const info8 = new google.maps.InfoWindow({
+  content:  '<h3>Кама-боготырь</h3>'+
+    '<p>Это история великого героя, павшего при спасении своих собратьев.</p>'+
+    '<a href="Dityo8.html" class="mapButton">Подробнее</ba>'
+  });
+  const info9 = new google.maps.InfoWindow({
+  content:  '<h3>Пермские подземелья</h3>'+
+    '<p>Мрачные ходы под городом хранят много тайн</p>'+
+    '<a href="Dityo9.html" class="mapButton">Подробнее</a>'
+  });
+  const info10 = new google.maps.InfoWindow({
+  content:  '<h3>Кладбище Чернобога</h3>'+
+    '<p>Место принадлежащее жрецам самого страшного славянского бога</p>'+
+    '<a href="Dityo10.html" class="mapButton">Подробнее</a>'
+  });
+  const info11 = new google.maps.InfoWindow({
+  content:  '<h3>Театр "У Моста"</h3>'+
+    '<p>Место, куда мистика пришла по воле людей</p>'+
+    '<a href="Dityo11.html" class="mapButton">Подробнее</a>'
+  });
+  const info12 = new google.maps.InfoWindow({
+  content:  '<h3>Крест Андроника</h3>'+
+    '<p>Здесь покоится человек, дух которого является самым известным чёрным призраком перми</p>'+
+    '<a href="Dityo12.html" class="mapButton">Подробнее</a>'
+  });
+  mark2.addListener("click", () => {
+        console.log("<---->")
+    info1.open({anchor:mark2,myMap, shouldFocus:false,});
+  });
+
+mark3.addListener("click", () => {
+        console.log("<---->")
+    info2.open({anchor:mark3,myMap, shouldFocus:false,});
+  });
+        
+        mark4.addListener("click", () => {
+        console.log("<---->")
+    info3.open({anchor:mark4,myMap, shouldFocus:false,});
+  });
+  mark5.addListener("click", () => {
+        console.log("<---->")
+    info4.open({anchor:mark5,myMap, shouldFocus:false,});
+  });
+  mark6.addListener("click", () => {
+        console.log("<---->")
+    info5.open({anchor:mark6,myMap, shouldFocus:false,});
+  });
+  mark8.addListener("click", () => {
+        console.log("<---->")
+    info7.open({anchor:mark8,myMap, shouldFocus:false,});
+  });
+        mark9.addListener("click", () => {
+        console.log("<---->")
+    info8.open({anchor:mark9,myMap, shouldFocus:false,});
+  });
+
+  mark10.addListener("click", () => {
+        console.log("<---->")
+    info9.open({anchor:mark10,myMap, shouldFocus:false,});
+  });
+  mark11.addListener("click", () => {
+        console.log("<---->")
+    info10.open({anchor:mark11,myMap, shouldFocus:false,});
+  });
+  mark12.addListener("click", () => {
+        console.log("<---->")
+    info11.open({anchor:mark12,myMap, shouldFocus:false,});
+  });
+  mark12.addListener("click", () => {
+        console.log("<---->")
+    info11.open({anchor:mark12,myMap, shouldFocus:false,});
+  });
+  mark13.addListener("click", () => {
+        console.log("<---->")
+    info12.open({anchor:mark13,myMap, shouldFocus:false,});
+  });
+        }
+    </script>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACl7KcfVw5wrow4Ghf_v-WJipfd_Wcpgs&callback=initMap"> 
+</script>
+
+</html>

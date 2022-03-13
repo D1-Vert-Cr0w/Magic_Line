@@ -1,0 +1,537 @@
+#Banner{
+    height: 870px;
+    position: relative;
+}
+.mapButton{
+    background-color: darkorchid;
+    color: white;
+    padding: 1em ;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 5px;
+}
+.mapButtonN{
+    margin-top: 20px;
+    background-color: darkorchid;
+    color: white;
+    padding: 1em ;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 5px;
+}
+.audioWrap{
+    justify-content: center;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto!important;
+    border: 10px double darkgray;
+
+}
+.mapButton:hover {
+    background-color: darkorchid;
+    color: white;
+    padding: 1em ;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+ }
+ .mapButtonN:hover {
+    background-color: darkorchid;
+    color: white;
+    padding: 1em ;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+ }
+.Banner{
+    height: 870px;
+}
+.HeadText{
+    font-size: 50pt;
+    height: 90px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    color: coral;
+}
+.blackLine{
+    width: 100%;
+    margin-top: 50px;
+}
+#map{
+    border: 10px double darkgray;
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 800px;
+}
+.blackLine{
+    width:100%;
+    height: 100px;
+    margin-top: 50px;
+}
+.Bear{
+    height: 125px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto!important;
+}
+.row{
+    --bs-gutter-x: 0rem!important;
+}
+#razr{
+    height: 150px;
+    background-color: darkorchid;
+    margin-top: 30px;
+}
+.razrab{
+    margin-top:50px ;
+    text-align: center;
+}
+.razrabT{
+    text-align: center;
+}
+.blackLineT{
+    width:100%;
+    height: 100px;
+    margin-top: 75px;
+}
+#razdel{
+ height: 125px;
+ margin-top: 50px;
+ margin-bottom: 20px;
+    }
+#textWrap{
+    height: 450px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#textWrapM{
+    height: 300px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.mainText{
+    font-size: 16pt;
+}
+#razCol{
+    height: 100px;
+}
+#footer{
+    height: 150px;
+    background-color: darkorchid;
+    margin-top: 50px;
+    padding: 0px!important;
+}
+.footText{
+    color: white;
+    font-size: 16pt;
+
+}
+.pText{
+    margin: 5px;
+    color: white;
+    font-size: 16pt;
+    text-align: center;
+}
+@media screen and (max-width: 1080px){
+    #textWrapM{
+        height: 250px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .pText{
+        font-size: 12pt;
+    }
+    .Bear{
+        height: 100px;
+        width: 90px;
+    }
+    .HeadText{
+        font-size: 24pt;
+        height: 40px;
+    }
+    #Banner{
+        height: 400px;
+    }
+    .Banner{
+        height: 400px;
+    }
+    .blackLine{
+        margin-top: 45px;
+    }
+    #razdel{
+        margin-top: 35px;
+        margin-bottom: 20px;
+           }
+     #Col{
+               width: 142,25!important;
+           }
+    .razrab{
+        font-size: 18pt;
+    }
+    .razrabT{
+        font-size: 18pt;
+    }
+    .blackLineT{
+        margin-top: 63px;
+    }
+    .mainText{
+        font-size: 12pt;
+    }
+    #map{
+        border: 10px double darkgray;
+        margin-right: 30px;
+        margin-left: 30px;
+        height: 600px;
+    }
+    #textWrap{
+        margin-right: 30px;
+        margin-left: 30px;
+        height: 350px;
+    }
+    #razdel{
+        height: 85px;
+    }
+    .mainText{
+        font-size: 12pt;
+    }
+    .footText{
+        
+        font-size: 12pt;
+    
+    }
+    #razr{
+        height: 100px;
+        width: 250px!important;
+    }
+    #footer{
+        height: 75px;
+    }
+    }
+@media screen and (max-width: 768px){
+    audio{
+        width: 150px; ;
+    }
+    .audioWrap{
+        width: 170px; ;
+    }
+    #textWrapM{
+        height: 250px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .pText{
+        font-size: 10pt;
+    }
+    .Bear{
+        height: 100px;
+        width: 90px;
+    }
+    .HeadText{
+        font-size: 24pt;
+        height: 40px;
+    }
+    #Banner{
+        height: 400px;
+    }
+    .Banner{
+        height: 400px;
+    }
+    .blackLine{
+        margin-top: 45px;
+    }
+    #razdel{
+        margin-top: 35px;
+        margin-bottom: 20px;
+           }
+     #Col{
+               width: 142,25!important;
+           }
+    .razrab{
+        font-size: 15pt;
+    }
+    .razrabT{
+        font-size: 15pt;
+    }
+    .blackLineT{
+        margin-top: 63px;
+    }
+    .mainText{
+        font-size: 10pt;
+    }
+    #map{
+        border: 10px double darkgray;
+        margin-right: 30px;
+        margin-left: 30px;
+        height: 500px;
+    }
+    #textWrap{
+        margin-right: 30px;
+        margin-left: 30px;
+        height: 300px;
+    }
+    #razdel{
+        height: 85px;
+    }
+    .mainText{
+        font-size: 11pt;
+    }
+    .footText{
+        
+        font-size: 11pt;
+    
+    }
+    #razr{
+        height: 100px;
+        width: 250px!important;
+    }
+    #footer{
+        height: 75px;
+    }
+    }
+@media screen and (max-width: 640px){
+    #textWrapM{
+        height: 200px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .pText{
+        font-size: 16pt;
+    }
+    .Bear{
+        height: 100px;
+        width: 90px;
+    }
+    .HeadText{
+        font-size: 20pt;
+        height: 40px;
+    }
+    #Banner{
+        height: 400px;
+    }
+    .Banner{
+        height: 400px;
+    }
+    .blackLine{
+        margin-top: 45px;
+    }
+    #razdel{
+        margin-top: 35px;
+        margin-bottom: 20px;
+           }
+     #Col{
+               width: 142,25!important;
+           }
+    .razrab{
+        font-size: 15pt;
+    }
+    .razrabT{
+        font-size: 15pt;
+    }
+    .blackLineT{
+        margin-top: 63px;
+    }
+    .mainText{
+        font-size: 11pt;
+    }
+    #map{
+        border: 10px double darkgray;
+        margin-right: 30px;
+        margin-left: 30px;
+        height: 500px;
+    }
+    #textWrap{
+        margin-right: 30px;
+        margin-left: 30px;
+        height: 350px;
+    }
+    #razdel{
+        height: 85px;
+    }
+    .mainText{
+        font-size: 11pt;
+    }
+    .footText{
+        
+        font-size: 11pt;
+    
+    }
+    #razr{
+        height: 100px;
+        width: 250px!important;
+    }
+    #footer{
+        height: 75px;
+    }
+    }
+    @media screen and (max-width: 576px){
+        audio{
+            width: 120px; ;
+        }
+        .audioWrap{
+            width: 140px; ;
+        }
+        #textWrapM{
+            height: 200px;
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+        .pText{
+            font-size: 9pt;
+        }
+        .Bear{
+            height: 76px!important;
+            width: 60px!important;
+        }
+        .HeadText{
+            font-size: 16pt;
+            height: 30px;
+        }
+        #Banner{
+            height: 300px;
+        }
+        .Banner{
+            height: 300px;
+        }
+        .blackLine{
+            margin-top: 35px;
+        }
+        #razdel{
+            margin-top: 25px;
+            margin-bottom: 10px;
+               }
+         #Col{
+                   width: 142,25!important;
+               }
+        .razrab{
+            font-size: 15pt;
+        }
+        .razrabT{
+            font-size: 15pt;
+        }
+        .blackLineT{
+            margin-top: 63px;
+        }
+        .mainText{
+            font-size: 9pt;
+        }
+        #map{
+            border: 10px double darkgray;
+            margin-right: 30px;
+            margin-left: 30px;
+            height: 400px;
+        }
+        #textWrap{
+            margin-right: 30px;
+            margin-left: 30px;
+            height: 400px;
+        }
+        #razdel{
+            height: 85px;
+        }
+        .mainText{
+            font-size: 9pt;
+        }
+        .footText{
+            
+            font-size: 9pt;
+        
+        }
+        #razr{
+            height: 85px;
+            width: 200px!important;
+        }
+        #footer{
+            height: 75px;
+        }
+        }
+@media screen and (max-width: 424px){
+    audio{
+        width: 130px; ;
+    }
+    .audioWrap{
+        width: 150px; ;
+    }
+    #textWrapM{
+        height: 200px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .pText{
+        font-size: 7pt;
+    }
+    .Bear{
+        height: 66px!important;
+        width: 48px!important;
+        margin-left: auto!important;
+    margin-right: auto!important;
+    }
+    .HeadText{
+        font-size: 12pt!important;
+        height: 30px;
+    }
+    #Banner{
+        height: 200px;
+    }
+    .Banner{
+        height: 200px;
+    }
+    .blackLine{
+        margin-top: 35px;
+    }
+    #razdel{
+        margin-top: 25px;
+        margin-bottom: 10px;
+           }
+     #Col{
+               width: 142,25!important;
+           }
+    .razrab{
+        font-size: 10pt!important;
+    }
+    .razrabT{
+        font-size: 10pt!important;
+    }
+    .blackLineT{
+        margin-top: 57px;
+    }
+    .mainText{
+        font-size: 7pt!important;
+    }
+    #map{
+        border: 10px double darkgray;
+        margin-right: 30px;
+        margin-left: 30px;
+        height: 300px;
+    }
+    #textWrap{
+        margin-right: 20px;
+        margin-left: 20px;
+        height: 280px;
+    }
+    #razdel{
+        height: 85px;
+    }
+    .mainText{
+        font-size: 7pt!important;
+    }
+    .footText{
+        
+        font-size: 7pt!important;
+    
+    }
+    #razr{
+        height: 85px;
+        width: 150px!important;
+    }
+    #footer{
+        height: 75px;
+    }
+    }
+

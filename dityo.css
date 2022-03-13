@@ -1,0 +1,57 @@
+.anL{
+    height: 10px;
+    background-color: black;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.anR{
+    height: 10px;
+    background-color: black;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-right: 0px;
+}
+#animBlock{
+    height: 100px;
+    margin-bottom: 30px ;
+    margin-top: 70px ;
+}
+#text{
+    margin-bottom: 50px ;
+     font-size: 16pt;
+     text-align:justify;
+     
+ }
+ .gallery {
+    
+    width: 100%;
+    height: 800px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-x: repeat(100%);
+  }
+.imgClass{
+    width: 100%;
+    height: 800px;
+}
+#foot{
+    height: 200px;
+    background-color: #8a2be2;
+    margin-top: 100px;
+}
+.white{
+    padding: 20px;
+    margin: 50px;
+    color:beige;
+}
+.banner{
+    font-size: 70pt;
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
