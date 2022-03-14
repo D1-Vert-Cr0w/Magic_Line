@@ -5,6 +5,26 @@ body{
     height: 870px;
     position: relative;
 }
+.punct{
+    height: 3px;
+    width: 50px!important;
+    background-color: black;
+    margin-top: 100px!important;
+    margin-left: 10px!important;
+    margin-right: 10px!important;
+}
+.brush{
+   height: 146px;
+   width: 146px;
+   border-radius: 50%;
+}
+.circle{
+    width: 154px!important;
+    height: 154px;
+    border-radius: 50%;
+    border: 4px solid black;
+    margin-top: 30px!important;
+}
 .mapButton{
     background-color: darkorchid;
     color: white;
@@ -31,7 +51,7 @@ body{
     width: 320px;
     margin-left: auto;
     margin-right: auto!important;
-    border: 10px double darkgray;
+    border: 10px double purple;
 
 }
 .mapButton:hover {
@@ -68,7 +88,7 @@ body{
     margin-top: 50px;
 }
 #map{
-    border: 10px double darkgray;
+    border: 10px double purple;
     margin-right: 100px;
     margin-left: 100px;
     height: 800px;
@@ -88,6 +108,7 @@ body{
     background-color: darkorchid;
     margin-top: 30px;
     color: white;
+    border: 10px double purple;
 }
 
 .razrab{
@@ -132,6 +153,7 @@ body{
     background-color: darkorchid;
     margin-top: 50px;
     padding: 0px!important;
+    border: 9px groove purple;
 }
 .footText{
     color: white;
