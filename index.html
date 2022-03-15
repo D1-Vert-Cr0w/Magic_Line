@@ -15,7 +15,7 @@
 <body >
      
       <div class="row" id="Banner">
-            <img src="242043_or.jpg" class="Banner">
+            <img src="BvrfeKK9X1w.jpg" class="Banner">
            <div class="HeadText" data-aos="fade-down" data-aos-easing="linear"
            data-aos-duration="1000">Мистическая линия города Перми</div> 
       </div>
@@ -25,9 +25,9 @@
       <div class="col-5"  id="razCol"><hr class='blackLine'class="col-5" ></hr></div>
    </div>
    <div class="row" id="textWrapM">
-         <div class="mainText" data-aos="fade-down">Порой можно и не догадываться, что у мест ,которые мы видим ежедневно, есть свои тайны.
-               Наш город изобилует захватывающими, пугающими, древними историями. И, для того чтобы с этими историями познакомиться, мы создали этот сайт.
-               Он представляет из себя интерактивную карту, где вы можете узнать о неизвестной части истории мест, отмеченных на ней.
+         <div class="mainText" data-aos="fade-down">На этом сайте есть удобная карта, на которой точками отмечены таинственные места. 
+               Выбрав локацию, посмотрите через Гугл – карты обзор местности. 
+               Переходите по ссылке, открыв страницу с мистической историей, где сможете прочитать её самостоятельно или прослушать, используя аудиодорожку.
          </div>
    </div>
    <div>
@@ -211,6 +211,11 @@
         map: myMap,
         icon: 'Медведь2.svg',
   });
+  mark14 = new google.maps.Marker({
+        position: { lat:58.01126468875669, lng:56.23859056409085} ,
+        map: myMap,
+        icon: 'Медведь2.svg',
+  });
   
  const info1 = new google.maps.InfoWindow({
     content:  '<h3>Дом Мешкова</h3>'+
@@ -267,6 +272,11 @@
     '<p>Здесь покоится человек, дух которого является самым известным чёрным призраком перми</p>'+
     '<a href="Dityo12.html" class="mapButton">Подробнее</a>'
   });
+  const info13 = new google.maps.InfoWindow({
+  content:  '<h3>Колизей Atrium</h3>'+
+    '<p>Это безобидное здание таит страшные тайны</p>'+
+    '<a href="Dityo13.html" class="mapButton">Подробнее</a>'
+  });
   mark2.addListener("click", () => {
         console.log("<---->")
     info1.open({anchor:mark2,myMap, shouldFocus:false,});
@@ -317,6 +327,10 @@ mark3.addListener("click", () => {
   mark13.addListener("click", () => {
         console.log("<---->")
     info12.open({anchor:mark13,myMap, shouldFocus:false,});
+  });
+  mark14.addListener("click", () => {
+        console.log("<---->")
+    info13.open({anchor:mark14,myMap, shouldFocus:false,});
   });
         }
     </script>
