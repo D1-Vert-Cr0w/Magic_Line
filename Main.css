@@ -1,5 +1,5 @@
 body{
-    background-color: dimgrey!important;
+    background-color: #1c0033!important;
 }
 #Banner{
     height: 930px;
@@ -35,7 +35,7 @@ body{
     border-radius: 5px;
 }
 .mapButtonN{
-    margin-top: 20px;
+   
     background-color: darkorchid;
     color: white;
     padding: 1em ;
@@ -48,11 +48,14 @@ body{
 }
 .audioWrap{
     justify-content: center;
-    width: 320px;
     margin-left: auto;
     margin-right: auto!important;
-    border: 10px double purple0;
-
+    border: 10px double purple;
+    margin-bottom: 20px;
+}
+audio{
+    margin-top: 6px;
+    width: 100%;
 }
 .mapButton:hover {
     background-color: darkorchid;
@@ -301,12 +304,6 @@ body{
         height: 94px;
         margin-top: 30px!important;
     }
-    audio{
-        width: 150px; ;
-    }
-    .audioWrap{
-        width: 170px; ;
-    }
     #textWrapM{
         height: 250px;
         margin-right: 30px;
@@ -491,12 +488,6 @@ body{
             height: 74px;
             margin-top: 30px!important;
         }
-        audio{
-            width: 120px; ;
-        }
-        .audioWrap{
-            width: 140px; ;
-        }
         #textWrapM{
             height: 200px;
             margin-right: 30px;
@@ -588,12 +579,6 @@ body{
         width: 74px!important;
         height: 74px;
         margin-top: 30px!important;
-    }
-    audio{
-        width: 130px; ;
-    }
-    .audioWrap{
-        width: 150px; ;
     }
     #textWrapM{
         height: 200px;
