@@ -2,7 +2,7 @@ body{
     background-color: #2d0052e7!important;
 }
 #Banner{
-    height: 930px;
+    height: 970px;
     position: relative;
 }
 .punct{
@@ -74,7 +74,7 @@ audio{
     display: inline-block;
  }
 .Banner{
-    height: 930px;
+    height: 970px;
 }
 .HeadText{
     color: white;
